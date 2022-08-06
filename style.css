@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    background-color: rgb(11, 8, 8);
+    color: aliceblue;
+}
+.column {
+    width: 33.33%;
+    border: 3px solid rgb(80, 165, 80);
+    float: left;
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+}
+.row::after {
+    
+}
+
+
+
+
+
+/*  
+.draniki {
+background-color: rgb(212, 46, 46);
+float: left;
+}
+.borscht {
+background-color: rgb(212, 46, 46);
+float: right;
+}
+.machanka {
+background-color: rgb(212, 46, 46);
+float: left;
+} */
