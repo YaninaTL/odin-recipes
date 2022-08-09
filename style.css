@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 * {
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Quicksand', sans-serif;
 }
 body {
-    background-image: url(https://us.123rf.com/450wm/ilyakovshik/ilyakovshik1812/ilyakovshik181200057/126677710-set-of-national-belarus-ornament-national-symbal-of-belarus-slavic-ethnic-pattern-.jpg?ver=6);
-    background-position: center fixed;
+    background-image: url(./recipes/img/banner\ index.avif);
+    background-position: center;
     background-color: antiquewhite;
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
 h1 {
     border: 1px solid black;
     background-color: aliceblue;
     text-align: center;
-    font-size: 34px;
-    margin: 50px;
+    font-size: 40px;
+    padding: 20px;
+    opacity: 0.78;
 }
 h2 {
     text-align: center;
@@ -45,7 +50,9 @@ div a {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
+    font-weight: 700;
     color: rgb(80, 165, 80);
+    opacity: 0.89;
     }
     div a:hover {
         color: aliceblue;
@@ -59,5 +66,6 @@ footer p {
     bottom: 5px;
     right: 10px;
     padding: 5px;
+    opacity: 0.78;
 }
 
