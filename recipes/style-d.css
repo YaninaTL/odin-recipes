@@ -42,6 +42,11 @@ div.img {
     
 }
 
+.description {
+padding: 30px;
+font-size: 1.2rem;
+}
+
     h2:nth-child(1) {
         margin-bottom: 20px;
         text-align: center;
@@ -49,6 +54,7 @@ div.img {
 
     h2:nth-child(1):hover {
         color: rgb(80, 165, 80);
+        transform: scale(1.5);
     }
 
 div.info {
@@ -57,3 +63,48 @@ div.info {
 }
 
 /* Styling the second box */
+
+.box2 {
+    display: flex;
+    gap: 1rem;
+    padding: 50px;
+    justify-content: space-between;
+    background-color: rgba(80, 165, 80, .6);
+    }
+
+.ing {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    
+}
+
+.steps {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.box2 > h2 {
+    display: flex;
+    align-items: center;
+}
+
+.box2 > h2:hover {
+    transform: scale(1.5);
+}
+
+/* Styling additional info */
+
+.add-info {
+    text-align: center;
+    margin: 30px;
+}
+
+.add-info > h2 {
+    color: black;
+}
+
+.add-info > p {
+    font-size: 1.2rem;
+}
