@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: default; 
+}
+
+/* Practicing flex */
+
+/* rgb(80, 165, 80) */
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+/* Styling the fist box */
+
+.box1 {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.banner {
+display: block;
+}
+div.img {
+    display: block;
+}
+
+.description, h2:nth-child(1) {
+    color: aliceblue;
+    
+}
+
+    h2:nth-child(1) {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h2:nth-child(1):hover {
+        color: rgb(80, 165, 80);
+    }
+
+div.info {
+    display: block;
+    
+}
+
+/* Styling the second box */
