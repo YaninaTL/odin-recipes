@@ -24,7 +24,7 @@ h1 {
 .box1 {
     background-color: black;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
@@ -58,7 +58,7 @@ font-size: 1.2rem;
     }
 
 div.info {
-    display: block;
+    display: flexbox;
     
 }
 
@@ -130,10 +130,24 @@ div.info {
 
 
 /* Need to learn Responsive flex */
+/* Add flex to the banner -> responsive? */
 
-@media only screen and (max-width: 700px) {
-div.box1 {
-    flex-direction: column;
 
-}
+@media (max-width: 1000px) {
+    .box1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner {
+        width: 600px;
+    }
+        .box2 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .box2 > h2:hover {
+        transform: scale(1);
+    }
 }
