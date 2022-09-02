@@ -6,6 +6,8 @@
 
 body {
     cursor: default; 
+    width: 100vw;
+    height: 100vh;
 }
 
 /* Practicing flex */
@@ -130,17 +132,20 @@ div.info {
 
 
 /* Need to learn Responsive flex */
-/* Add flex to the banner -> responsive? */
+/* Add flex to the banner -> responsive?         width: 100%;
+height: auto;*/
 
 
 @media (max-width: 1000px) {
     .box1 {
-        flex-wrap: wrap;
+        display: block;
+        /* flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center; */
     }
     .banner {
-        width: 600px;
+        width: 100%;
+        height: auto;
     }
         .box2 {
         flex-wrap: wrap;
