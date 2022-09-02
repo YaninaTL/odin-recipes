@@ -10,7 +10,6 @@ body {
 
 /* Practicing flex */
 
-/* rgb(80, 165, 80) */
 
 
 h1 {
@@ -25,6 +24,7 @@ h1 {
 .box1 {
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
@@ -126,4 +126,14 @@ div.info {
 
 .button button:hover {
     background: rgba(80, 165, 80, .2);
+}
+
+
+/* Need to learn Responsive flex */
+
+@media only screen and (max-width: 700px) {
+div.box1 {
+    flex-direction: column;
+
+}
 }
