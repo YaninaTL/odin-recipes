@@ -9,6 +9,8 @@ body {
     height: 100vh;
 }
 
+/* Styling the first container */
+
 .banner img {
     display: block;
     width: 100%;
@@ -30,17 +32,17 @@ h1 {
     background: black;
 }
 
-.description, h2:nth-child(1) {
+.description, .main-info > h2 {
     color: aliceblue;
     background-color: black;
     }
 
-    h2:nth-child(1) {
+    .main-info > h2 {
         text-align: center;
         padding-top: 20px;
     }
 
-    h2:nth-child(1):hover {
+    .main-info > h2:hover {
         color: rgb(80, 165, 80);
         transform: scale(1.5);
     }
@@ -50,3 +52,37 @@ h1 {
 padding: 30px;
 font-size: 1.2rem;
 }
+
+/* Styling the second container */
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(165, 91, 80, 0.5)
+}
+
+.steps {
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.ing {
+    align-items: center;
+    font-size: 1.1rem;
+    
+}
+
+.box2 > h2 {
+    align-items: center;
+    padding: 20px;
+}
+
+ol {
+    margin: 30px;
+}
+
+
+
