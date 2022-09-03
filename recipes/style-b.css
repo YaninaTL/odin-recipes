@@ -14,3 +14,39 @@ body {
     width: 100%;
     height: auto;
 }
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background: black;
+}
+
+.description, h2:nth-child(1) {
+    color: aliceblue;
+    background-color: black;
+    }
+
+    h2:nth-child(1) {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h2:nth-child(1):hover {
+        color: rgb(80, 165, 80);
+        transform: scale(1.5);
+    }
+
+
+.description {
+padding: 30px;
+font-size: 1.2rem;
+}
