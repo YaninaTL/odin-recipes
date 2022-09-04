@@ -7,6 +7,8 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
+    cursor: default;
 }
 
 /* Styling the first container */
@@ -40,10 +42,12 @@ h1 {
     .main-info > h2 {
         text-align: center;
         padding-top: 20px;
+        width: 200px;
+        margin: 10px auto;
     }
 
     .main-info > h2:hover {
-        color: rgba(165, 91, 80, 0.5);
+        color: rgb(210, 116, 101);
         transform: scale(1.5);
     }
 
@@ -81,7 +85,7 @@ font-size: 1.2rem;
 }
 
 ol {
-    margin-left: 30px;
+    margin-left: 40px;
     margin-right: 30px;
     margin-bottom: 20px;
 }
@@ -119,6 +123,46 @@ div.add-info {
     cursor: pointer;
 }
 
+.add-info > h2 {
+    margin-bottom: 30px;
+}
+
+.add-info > h2:hover {
+    color: rgb(210, 116, 101);
+    transform: scale(1.5);
+
+}
+
 .button button:hover {
     background: rgba(165, 91, 80, 0.2);
+}
+
+/* Add the style for the desktop */
+
+@media (min-width: 1000px) {
+    .box1 {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .box2 {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+
+
+
+.ing, .steps {
+    padding: 20px;
+}
+
+.banner {
+    width: 40%;
+}
+
+.main-info {
+    width: 60%;
+}
+
 }
