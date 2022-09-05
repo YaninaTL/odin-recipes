@@ -96,3 +96,25 @@ div.add-info {
     font-size: 1.2rem;
 
 }
+
+/* Styling footer */
+
+.footer {
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+    button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: khaki;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+    button:hover {
+    background: rgba(240, 230, 140, 0.5);
+}
+
+/* Add the style for the desktop */
