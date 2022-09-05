@@ -54,10 +54,24 @@ align-items: center;
     transform: scale(1.5);
 }
 
-
-
-
-
-
-
 /* Styling box2 */
+
+.box2 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+background-color: khaki;
+}
+
+.ing, .steps {
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 20px 50px;
+}
+
+.box2 > h2 {
+    align-items: center;
+    padding: 20px;
+}
+
