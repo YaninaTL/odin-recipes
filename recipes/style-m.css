@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+/* Styling box1 */
+
+.box1 > h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.box1 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+.description {
+    margin: 30px auto;
+}
+
+.info > h2 {
+    text-align: center;
+    padding-top: 20px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.info > h2:hover {
+    color: khaki;
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+/* Styling box2 */
