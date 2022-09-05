@@ -75,3 +75,24 @@ background-color: khaki;
     padding: 20px;
 }
 
+/* Styling add info */
+
+div.add-info {
+    text-align: center;
+    margin: 30px;
+    }
+
+.add-info > h2 {
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+.add-info > h2:hover {
+    color: rgb(182, 175, 108);
+    transform: scale(1.5);
+}
+
+.add-info > p {
+    font-size: 1.2rem;
+
+}
